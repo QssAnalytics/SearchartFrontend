@@ -1,10 +1,14 @@
+import { Fragment } from "react";
+import Hero from "../components/Landing/Hero";
 import Navbar from "../layout/Navbar";
 
 const Landing = () => {
   return (
-    <div className="">
+    <Fragment>
       <Navbar />
-    </div>
+
+      <Hero />
+    </Fragment>
   );
 };
 

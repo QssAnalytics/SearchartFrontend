@@ -1,11 +1,11 @@
 import React from "react";
 
-const MapIcon = () => (
+const MapIcon = ({ className = "fill-white" }: { className: string }) => (
   <svg
     width="1093"
     height="315"
     viewBox="0 0 1093 315"
-    fill="none"
+    className={className}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g filter="url(#filter0_d_328_20703)">

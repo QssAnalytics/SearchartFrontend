@@ -3,9 +3,9 @@ import ToggleDarkMode from "../components/ToggleDarkMode";
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
       <ToggleDarkMode />
-    </div>
+    </nav>
   );
 };
 

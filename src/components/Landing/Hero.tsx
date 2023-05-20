@@ -1,5 +1,11 @@
+import MapIcon from "../icons/MapIcon";
+
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <section>
+      <MapIcon className="text-white" />
+    </section>
+  );
 };
 
 export default Hero;
