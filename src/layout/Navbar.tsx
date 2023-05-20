@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="flex justify-between  xl:hidden py-12 px-10">
         <img src={Logo} alt="logo" />
         <div
-          className="flex items-center"
+          className="flex items-center cursor-pointer"
           onClick={() => {
             setOpen(true);
           }}

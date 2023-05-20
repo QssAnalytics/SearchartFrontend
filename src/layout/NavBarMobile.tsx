@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBarMobile({ links, close }) {
   return (
-    <div className="fixed inset-0 top-0 left-0 h-screen w-full bg-gray-200 ">
+    <div className="fixed inset-0 top-0 left-0 h-screen w-full ">
       <div className="fixed inset-0 top-0 left-0 p-7">
         <div className="w-full bg-white rounded-xl p-5 flex justify-between">
           <div className="flex flex-col gap-4">
@@ -14,7 +14,7 @@ export default function NavBarMobile({ links, close }) {
               );
             })}
           </div>
-          <div onClick={close}>
+          <div onClick={close} className="cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
