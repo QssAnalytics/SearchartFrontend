@@ -17,7 +17,7 @@ const ToggleDarkMode = () => {
   return (
     <button
       onClick={handleToggleBtn}
-      className="relative p-2.5 flex-center border rounded-lg"
+      className="relative p-2.5 flex-center border border-searchart-stroke rounded-lg"
     >
       <Icon
         icon="ph:sun-bold"
