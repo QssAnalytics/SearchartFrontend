@@ -6,10 +6,10 @@ const About = () => {
       {aboutData().map(({ id, frame, content }) => (
         <div
           key={id}
-          className="flex gap-24 w-full items-center even:flex-row-reverse"
+          className="grid items-center w-full gap-24 justify-items-center lg:flex even:flex-row-reverse"
         >
           <div>{frame}</div>
-          <p className="max-w-xl text-justify leading-normal">
+          <p className="max-w-xl leading-normal text-justify">
             {content.split("_")[0]}
             <p className="mt-1">{content.split("_")?.[1]}</p>
           </p>

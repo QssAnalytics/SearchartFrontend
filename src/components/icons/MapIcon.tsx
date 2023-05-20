@@ -1,5 +1,3 @@
-import React from "react";
-
 const MapIcon = ({
   className = "fill-white stroke-none",
 }: {
