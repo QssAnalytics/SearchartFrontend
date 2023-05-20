@@ -2,7 +2,6 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
-
   theme: {
     extend: {
       fontFamily: {
@@ -24,6 +23,7 @@ export default {
           "hover-button": "#EDEDED",
           "footer-text": "#9DA2AA",
           dark: {
+            alternative: "#081325",
             background: "linear-gradient(to bottom,#0A1525 100%,#041023 100%)",
             text: "#D0D2D6",
             button: "#182842",
