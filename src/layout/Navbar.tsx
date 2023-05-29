@@ -42,7 +42,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div className="items-center justify-between hidden gap-2 py-20 xl:flex ">
+      <div className="items-center justify-between hidden gap-2 py-10 xl:flex ">
         <div>
           <svg
             width="150"
@@ -221,11 +221,7 @@ const Navbar = () => {
             />
           </svg>
         </div>
-        {open ? (
-          <NavBarMobile close={() => setOpen(false)} links={links} />
-        ) : (
-          <></>
-        )}
+        {open && <NavBarMobile close={() => setOpen(false)} links={links} />}
       </div>
     </div>
   );
